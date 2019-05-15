@@ -1,0 +1,126 @@
+html {
+    background-color: black;
+    margin: 0;
+}
+
+head {
+    margin: 0;
+}
+
+title {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+/*
+rgb(226, 27, 87);
+rgb(145, 111, 223)
+*/
+header {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    background-color: black;
+  
+}
+
+h1 {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+div {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    color: white;
+}
+
+div.gameType {
+    
+    text-align: center;
+    flex-direction: column;
+    color: red;
+    margin: auto;
+}
+
+#Solo {
+    background-repeat: no-repeat;
+    background-image: url("images/GoldenCharacters.jpg");
+    background-size: contain;
+    font-size: 20px;
+    color: White;
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+
+#Duo {
+    background-repeat: no-repeat;
+    background-image: url("images/RandoCharacters.jpg");
+    background-size: contain;
+    font-size: 20px;
+    color: white;
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+
+#Squad {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("images/Characters.jpg");
+    font-size: 20px;
+    color: white;
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+
+p {
+    font-size: 15px;
+    display: inline-block;
+    color: white;
+    opacity: 1;
+}
+
+form {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+}
+
+input[type=text] {
+    background-color: black;
+    color: white;
+  }
+
+  .searchText {
+    height: 25px;
+    width: 200px
+  }
+
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
