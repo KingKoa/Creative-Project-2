@@ -22,11 +22,7 @@ window.onload=function()
             console.log("json: ",json);
             
             let results = "";
-
             results+= "<h1>" + json.username + "'s Stats</h1>";
-
-
-
             document.getElementById("userNameResults").innerHTML = results;
         }
         catch(err)
@@ -44,30 +40,28 @@ window.onload=function()
             let stats = "";
 
             stats += "<div>";
-
             stats += '<div id= "Solo" class= "gameType">Solo';
-            stats += "<p> Victories: " + json.data.keyboardmouse.defaultsolo.default.placetop1 + "</p>"
-            stats += "<p> Top 10: " + json.data.keyboardmouse.defaultsolo.default.placetop10 + "</p>"
-            stats += "<p> Top 25: " + json.data.keyboardmouse.defaultsolo.default.placetop25 + "</p>"
-            stats += "<p> Matches Played: " + json.data.keyboardmouse.defaultsolo.default.matchesplayed + "</p>"
+            stats += "<p> Victories: " + json.data.keyboardmouse.defaultsolo.default.placetop1 + "</p>";
+            stats += "<p> Top 10: " + json.data.keyboardmouse.defaultsolo.default.placetop10 + "</p>";
+            stats += "<p> Top 25: " + json.data.keyboardmouse.defaultsolo.default.placetop25 + "</p>";
+            stats += "<p> Matches Played: " + json.data.keyboardmouse.defaultsolo.default.matchesplayed + "</p>";
             stats += "<p> kills: " + json.data.keyboardmouse.defaultsolo.default.kills + "</p>";
-            stats += '</div>'
-
+            stats += '</div>';
             stats += '<div id= "Duo" class= "gameType">Duo';
-            stats += "<p> Victories: " + json.data.keyboardmouse.defaultduo.default.placetop1 + "</p>"
-            stats += "<p> Top 5: " + json.data.keyboardmouse.defaultduo.default.placetop5 + "</p>"
-            stats += "<p> Top 12: " + json.data.keyboardmouse.defaultduo.default.placetop12 + "</p>"
-            stats += "<p> Matches Played: " + json.data.keyboardmouse.defaultduo.default.matchesplayed + "</p>"
+            stats += "<p> Victories: " + json.data.keyboardmouse.defaultduo.default.placetop1 + "</p>";
+            stats += "<p> Top 5: " + json.data.keyboardmouse.defaultduo.default.placetop5 + "</p>";
+            stats += "<p> Top 12: " + json.data.keyboardmouse.defaultduo.default.placetop12 + "</p>";
+            stats += "<p> Matches Played: " + json.data.keyboardmouse.defaultduo.default.matchesplayed + "</p>";
             stats += "<p> kills: " + json.data.keyboardmouse.defaultduo.default.kills + "</p>";
             stats += '</div>'
-
             stats += '<div id= "Squad" class= "gameType">Squad';
-            stats += "<p> Victories: " + json.data.keyboardmouse.defaultsquad.default.placetop1 + "</p>"
-            stats += "<p> Top 5: " + json.data.keyboardmouse.defaultsquad.default.placetop3 + "</p>"
-            stats += "<p> Top 12: " + json.data.keyboardmouse.defaultsquad.default.placetop6 + "</p>"
-            stats += "<p> Matches Played: " + json.data.keyboardmouse.defaultsquad.default.matchesplayed + "</p>"
+
+            stats += "<p> Victories: " + json.data.keyboardmouse.defaultsquad.default.placetop1 + "</p>";
+            stats += "<p> Top 5: " + json.data.keyboardmouse.defaultsquad.default.placetop3 + "</p>";
+            stats += "<p> Top 12: " + json.data.keyboardmouse.defaultsquad.default.placetop6 + "</p>";
+            stats += "<p> Matches Played: " + json.data.keyboardmouse.defaultsquad.default.matchesplayed + "</p>";
             stats += "<p> kills: " + json.data.keyboardmouse.defaultsquad.default.kills + "</p>";
-            stats += '</div>'
+            stats += '</div>';
             stats += "</div>";
 
 
